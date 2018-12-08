@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	font-family: Curly;
+	font-size: 15px;
+	color: #85868A;
+}
+h1, h2, h3, h4, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style-type: none;
+}
+#DivHeaderWrap {
+	background-color: #FFB400;
+	background-image: url('images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background: -webkit-linear-gradient(top, #fceabb 0%,#ffb400 54%,#fccd4d 76%,#fbdf93 100%);
+}
+#DivHeader, #DivMainContent {
+	width: 980px;
+	margin: 0 auto;
+}
+#DivHeaderTop {
+	padding-top: 40px;
+    padding-bottom: 100px
+}
+#DivHeaderLogo {
+	float: left;
+} 
+#DivHeaderSearch input {
+	float: right;
+	border-radius: 30px 30px 30px 30px;
+}
+#DivHeaderLogo h1 {
+	font-size: 28px;
+	color: #ffffff;
+	display: inline-block;
+}
+#DivHeaderLogo h2 {
+	font-size: 20px;
+	color: #ffffff;
+	display: inline-block;
+	font-style: italic;
+}
+#DivHeaderBottom li {
+	display: inline-block;
+	margin-right: 30px;
+	padding-bottom: 18px;
+}
+#DivHeaderBottom li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #77868A;
+	text-decoration: none;
+}
+.DivWidget h3 {
+	line-height: 80px;
+}
+#DivContent {
+	float: left;
+	width: 66%;
+}
+.DivContentPost, .DivContentPost2 {
+	width: 100%
+}
+.DivContentPost h1 {
+	line-height: 66px;
+}
+.DivContentPost p {
+	margin-left: 0px;
+    overflow:auto;
+    display: block;
+	margin-bottom: 20px;
+}
+.DivContentPost2 img {
+	width: 50%;
+	margin-left: 172px;
+	clear: both;
+}
+#DivSidebar {
+	float: right;
+	width: 30%;
+}
+.DivWidget h3 {
+	line-height: 80px;
+}
+.DivWidget ul {
+	line-height: 30px;
+	list-style-type: disc;
+}	
+.DivWidget ul li::before {
+  content: "\2022";
+  color: yellow;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.DivWidget ul li span {
+	color: #85868A;
+}  
+#DivFooterWrap {
+	background-color: #FFB400;
+	background: -webkit-linear-gradient(top, #fceabb 0%,#ffb400 54%,#fccd4d 76%,#fbdf93 100%);
+}
+#DivFooter {
+	padding: 40px 0;
+	text-align: center;
+	margin-top: 10px;
+}
+#DivFooter p {
+	font-size: 15px;
+	color: #ffffff;
+}	
